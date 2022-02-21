@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Fylo Landing Page</title>
+  </head>
+  <body>
+    <nav class="animate__animated animate__fadeIn animate__slow">
+      <img src="../images/logo.svg" alt="Fylo Logo" class="nav--logo" />
+      <ul class="nav--list">
+        <a href="#"><li>Features</li></a>
+        <a href="#"><li>Team</li></a>
+        <a href="#"><li>Sign In</li></a>
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="grid--1x2 section1">
+        <div class="grid--right">
+          <img
+            class="main--ill1 animate__animated animate__zoomIn"
+            src="../images/illustration-1.svg"
+            alt="illustration-1"
+          />
+        </div>
+        <div
+          class="grid--left animate__animated animate__fadeInDown animate__delay-1s"
+        >
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p class="main--desc">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form action="">
+            <input
+              class="main--input"
+              type="email"
+              placeholder="Enter your email..."
+            />
+            <button class="main--button">Get Started</button>
+          </form>
+        </div>
+      </section>
+      <div class="curved"></div>
+      <section class="section2 grid--1x2-2">
+        <div class="grid--right-2" data-aos="fade-up" data-aos-duration="1200">
+          <img
+            class="main--ill2"
+            src="../images/illustration-2.svg"
+            alt="illustration-2"
+          />
+        </div>
+        <div
+          class="grid--left-2 fade-up"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <h2>Stay productive, wherever you are</h2>
+          <p class="section2--text">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="section2--text">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <div class="fylo-ft-link">
+            <a href="#">See how Fylo works </a>
+            <img src="../images/icon-arrow.svg" alt="icon-arrow" />
+          </div>
+          <div class="main--testimonial">
+            <img
+              class="quotes-icon"
+              src="../images/icon-quotes.svg"
+              alt="quotes"
+            />
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonial--author">
+              <img
+                class="testimonial--avatar"
+                src="../images/avatar-testimonial.jpg"
+                alt=""
+              />
+              <div class="testimonial--details">
+                <h3 class="testimonial--author">Kyle Burton</h3>
+                <h4 class="testimonial--status">Founder & CEO, Huddle</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="early grid--1x2">
+      <div class="grid--left" data-aos="fade-right" data-aos-duration="1000">
+        <h4 class="early--title">Get early access today</h4>
+        <p class="early--text">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </div>
+      <div class="grid--right" data-aos="fade-left" data-aos-duration="1000">
+        <form action="">
+          <input
+            type="email"
+            placeholder="email@example.com"
+            class="early--input"
+          />
+          <button class="early--button">Get Started For Free</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer grid--1x4">
+      <div>
+        <img src="../images/logo.svg" alt="logo" class="footer--logo idk" />
+        <div class="footer--flex">
+          <img
+            class="footer--icon"
+            src="../images/icon-phone.svg"
+            alt="icon-phone"
+          />
+          <p>Phone: +1-543-123-4567</p>
+        </div>
+        <div class="footer--flex">
+          <img
+            class="footer--icon"
+            src="../images/icon-email.svg"
+            alt="icon-email"
+          />
+          <p>example@fylo.com</p>
+        </div>
+      </div>
+      <div class="list--grid">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="list--grid">
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+      <div class="footer--contacts">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/8313ba61f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
